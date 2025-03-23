@@ -1,14 +1,15 @@
-// Firebase config
+// Firebase bağlantısı
 const firebaseConfig = {
-    apiKey: "API_KEYİNİ_BURAYA_YAZ",
-    authDomain: "SENİN-FIREBASE-PROJEN.firebaseapp.com",
-    projectId: "SENİN-FIREBASE-PROJEN",
-    storageBucket: "SENİN-FIREBASE-PROJEN.appspot.com",
-    messagingSenderId: "XXXXXXXXX",
-    appId: "APP_ID_BURAYA"
+  apiKey: "AIzaSyCtfJmHTeXr3YoUQwaFr2P8EDK7wwqOsQ4",
+  authDomain: "dogrucevap-3aa75.firebaseapp.com",
+  projectId: "dogrucevap-3aa75",
+  storageBucket: "dogrucevap-3aa75.firebasestorage.app",
+  messagingSenderId: "12679869016",
+  appId: "1:12679869016:web:03b1e0991a968d4d63d02d",
+  measurementId: "G-3GHJEE9J0C"
 };
 
-// Firebase bağlantısı
+// Firebase'i başlat
 firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
 
